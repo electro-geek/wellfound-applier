@@ -1,0 +1,72 @@
+{
+  "candidate": {
+    "name": "Your Name",
+    "location": "Your City, Country",
+    "years_experience": 4.5,
+    "resume_path": "resume.pdf"
+  },
+  "target_roles": [
+    "Backend Engineer",
+    "Python Developer",
+    "Platform Engineer",
+    "AI Engineer",
+    "Machine Learning Engineer",
+    "Research Engineer",
+    "Systems Engineer"
+  ],
+  "preferred_skills": [
+    "Python",
+    "FastAPI",
+    "Django",
+    "PostgreSQL",
+    "REST API",
+    "Redis",
+    "Docker",
+    "Kubernetes",
+    "MongoDB",
+    "LLM",
+    "Go",
+    "C++"
+  ],
+  "location_preferences": ["Remote"],
+  "employment_types": ["full-time", "contract"],
+  "accept_any_employment_type": true,
+  "workplace_types": ["remote", "hybrid", "in-office"],
+  "accept_any_location": true,
+  "exclude_title_terms": [
+    "frontend",
+    "android",
+    "ios",
+    "mobile",
+    "qa engineer",
+    "sales",
+    "support engineer",
+    "principal",
+    "staff engineer",
+    "engineering manager"
+  ],
+  "maximum_required_experience_years": 5,
+  "work_authorization": null,
+  "requires_sponsorship": null,
+  "submission_mode": "review_required",
+  "automation": {
+    "maximum_applications_per_run": 10,
+    "minimum_match_score": 70,
+    "require_per_application_confirmation": true,
+    "skip_duplicate_applications": true,
+    "stop_for_captcha_or_mfa": true,
+    "stop_for_unknown_mandatory_facts": true
+  },
+  "answer_policy": {
+    "resume_facts_only": true,
+    "unknown_answer": "ask_user",
+    "never_invent": [
+      "salary",
+      "notice period",
+      "work authorization",
+      "sponsorship",
+      "demographics",
+      "years using a technology"
+    ]
+  }
+}

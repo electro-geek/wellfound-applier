@@ -1,0 +1,14 @@
+{
+  "name": "career-page-job-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright-based career-page scanner and local job application ledger",
+  "license": "UNLICENSED",
+  "scripts": {
+    "install-browser": "playwright install chromium",
+    "test": "python3 -m unittest discover -s tests -v"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  }
+}

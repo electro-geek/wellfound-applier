@@ -1,0 +1,48 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+candidate_profile.json
+*.pem
+*.key
+
+# Personal documents and application history
+*.pdf
+applications*.csv
+.wellfound/
+
+# Browser authentication, traces, and captured pages
+.playwright-mcp/
+playwright-report/
+test-results/
+auth.json
+storage-state*.json
+
+# Generated scanner reports
+career_matches.*
+growth_matches_*
+*_matches.md
+*_matches.csv
+*_matches.json
+verified_matches.md
+
+# One-off authenticated browser runs (may capture form values or answers)
+apply_wellfound_batch.js
+audit_wellfound_forms.js
+collect_fresh_roles.js
+inspect_fresh_jobs.js
+inspect_wellfound_candidates.js
+playwright_wellfound_audit.js
+
+# Python / Node build artifacts
+__pycache__/
+.pytest_cache/
+*.py[cod]
+node_modules/
+npm-debug.log*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
